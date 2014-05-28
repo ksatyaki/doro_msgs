@@ -1,0 +1,3 @@
+std_msgs/Empty empty
+---
+doro_msgs/RecognizedObject[] recognized_objects

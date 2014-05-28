@@ -1,0 +1,4 @@
+std_msgs/Empty empty
+---
+std_msgs/String[] img_ids
+geometry_msgs/PointStamped[] img_centroids

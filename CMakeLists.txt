@@ -49,14 +49,20 @@ add_message_files(
    FILES
    GraspPoses.msg
    Clusters.msg
+   TableObject.msg
+   TableObjectArray.msg
+   Cluster.msg
+   ClusterArray.msg
+   RecognizedObject.msg
+   RecognizedObjectArray.msg
  )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  GetObjectsFromImage.srv
+  GetObjectsFromPointCloud.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
