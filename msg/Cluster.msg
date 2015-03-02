@@ -1,6 +1,4 @@
 float64[] cluster_size
 geometry_msgs/PointStamped centroid
-float64 x
-float64 y
 int32[] window
 uint8[] color
